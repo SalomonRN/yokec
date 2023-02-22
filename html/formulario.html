@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../Source/Img/uniagus.png">
+    <link rel="stylesheet" href="../formulario.css">
+
+    <title>Holaaaa</title>
+
+</head>
+
+<body>
+
+    <div class="conteinerBody">
+        <div class="nav">
+            <nav>
+                <ul>
+                    <li><a href="/index.html">Inicio</a></li>
+                    <li><a href="/html/formulario.html">Formulario</a></li>
+                    <li><a href="#pie">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="background-Form">
+            <h1> Formulario</h1>
+            <form onSubmit=>
+                <div>
+                    <label>Nombre</label>
+                    <input type="text" required placeholder="Nombre Aqui" />
+                </div>
+                <div>
+                    <label>Apellido</label>
+                    <input type="text" required placeholder="Apellido Aqui" />
+                </div>
+                <div> <label for="emails">Tipo de documento</label>
+                    <select name="transporte" required>
+                        <option value="1">Cedula Ciudadania</option>
+                        <option value="2">Tarjeta de Identidad</option>
+                        <option value="3">Pasaporte</option>
+                        <option value="4">Registrol Civil</option>
+                    </select>
+                    
+                </div>
+                <div>
+                    <label>Telefono</label>
+                    <input type="tel" required placeholder="Sin el prefijo" />
+                </div>
+                <div>
+                    <label>Nacimiento</label>
+                    <input type="date" required />
+                </div>
+                <div>
+                    <label>Email</label>
+                    <input type="email" required placeholder="" />
+                </div>
+                <div>
+                    <label>Contraseña</label>
+                    <input type="password" required placeholder="1234567" />
+                </div>
+                <div>
+                    <label>Seleccion: </label>
+                    <input type="radio" name="opcion" value="1" required>Uno
+                    <input type="radio" name="opcion" value="2">Dos
+                    <input type="radio" name="opcion" value="3">Tres
+                </div>
+                <div>
+                    <label>Variedad</label>
+                    <input type="checkbox" value="1" required>Acepto
+                </div>
+                <input type="submit" />
+
+            </form>
+        </div>
+        <footer id="pie">
+            <div>
+                <ul>
+                    <li class="copy">
+                        <p>CopyRight</p>
+                    </li>
+                    <li>
+                        <a href="https://github.com/SalomonRN/"> <img class="redes" src="../Source/Img/github.png"
+                                alt="Github"></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/SalomonRN20"> <img class="redes" src="../Source/Img/twitter.png"
+                                alt="Twitter"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/salomon-ruiz-navarrete-5235821a3/"> <img class="redes"
+                                src="../Source/Img/linkedin.png" alt="linkedin"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/salomon.rn/"> <img class="redes"
+                                src="../Source/Img/instagram.png" alt="insta"></a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+
+    </div>
+</body>
+
+</html>
